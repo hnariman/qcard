@@ -22,3 +22,11 @@ code {
   width: 20%;
   margin: 2em 0;
 }
+.user-card {
+  margin-top: 2em;
+  background-color: #e4e4e4;
+  padding: 2em;
+  border-radius: 14px;
+  width: 300px;
+  box-shadow: 0px 1px 12px 1px #4545459c;
+}
