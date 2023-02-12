@@ -16,6 +16,18 @@ const App = () => {
     setData(data);
     console.log(data);
   }
+  // TODO: add dynamic routing 
+  // TODO: add some free data storage(firebase / aws S3)
+  // TODO: add tailwind for better looks (no time for UI styling)
+  // TODO: test if can use tailwind with styled components
+  // https://www.npmjs.com/package/tailwind-styled-components
+
+  // TODO: some storage for data persistence
+  // https://react-supabase.vercel.app/recipes/use-auth
+
+  // TODO: HACK for an easy json server for github
+  // https://my-json-server.typicode.com/
+  // https://dev.to/nikita_guliaev/deploying-create-react-app-with-json-server-as-backend-to-github-3pp9
   return (
     <section className="container">
       <h1>Please enter you data</h1>
