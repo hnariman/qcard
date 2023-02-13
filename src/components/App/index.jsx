@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { Form, Card, Navbar, Main, Footer } from "../../components";
 import { Route, Routes, HashRouter } from "react-router-dom";
 
@@ -17,12 +16,12 @@ export const App = () => {
     // https://my-json-server.typicode.com/
     // https://dev.to/nikita_guliaev/deploying-create-react-app-with-json-server-as-backend-to-github-3pp9
     return (
-        <Fragment className="app">
+        <section className="app">
             <HashRouter>
                 <Navbar />
                 <section className="container">
                     <Routes>
-                        <Route path="/qcard" element={<Main />} />
+                        <Route path="/" element={<Main />} />
                         <Route path="/qcard/form" element={<Form />} />
                         <Route path="/qcard/:id" element={<Card />} />
                     </Routes>
@@ -30,6 +29,6 @@ export const App = () => {
                 <Footer />
             </HashRouter>
 
-        </Fragment>
+        </section>
     )
 }

@@ -84,3 +84,11 @@ footer {
   padding: 2em;
   bottom: 0;
 }
+.single-user-card {
+  border: 1px solid silver;
+  background: white;
+  color: black;
+  padding: 1em;
+  border-radius: 6px;
+
+}
