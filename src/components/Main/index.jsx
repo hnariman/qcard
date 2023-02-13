@@ -8,9 +8,9 @@ export const Main = () => {
     const getData = useCallback(async () => {
         const { data } = await axios.get(url);
         setUsers(data);
-    }, [users]);
+    }, []);
 
-    useEffect(() => { getData(); }, [])
+    useEffect(() => { getData(); }, [getData])
 
     return (
         <>

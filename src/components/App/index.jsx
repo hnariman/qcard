@@ -17,7 +17,7 @@ export const App = () => {
                 <Navbar />
                 <section className="container">
                     <Routes>
-                        <Route path="/" element={<Main />} />
+                        <Route path="/qcard" element={<Main />} />
                         <Route path="/qcard/form" element={<Form />} />
                         <Route path="/qcard/:id" element={<Card />} />
                     </Routes>
