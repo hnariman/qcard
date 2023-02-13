@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Form, Card, Navbar, Main, Footer } from "../../components";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 
 export const App = () => {
 
@@ -18,7 +18,7 @@ export const App = () => {
     // https://dev.to/nikita_guliaev/deploying-create-react-app-with-json-server-as-backend-to-github-3pp9
     return (
         <Fragment className="app">
-            <BrowserRouter>
+            <HashRouter>
                 <Navbar />
                 <section className="container">
                     <Routes>
@@ -28,7 +28,7 @@ export const App = () => {
                     </Routes>
                 </section>
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
 
         </Fragment>
     )
