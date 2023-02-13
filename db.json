@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "first": "Nariman",
+            "last": "Huseynov",
+            "email": "hnariman@gmail.com",
+            "twitter": "hnariman",
+            "website": "github.com/hnariman",
+            "telegram": "@hnariman31337",
+            "link": "https://hnariman.github.io/qcard/#/31337"
+        },
+        {
+            "first": "Test",
+            "last": "Account",
+            "email": "test@example.com",
+            "twitter": "--",
+            "website": "github.com/hnariman",
+            "link": "https://hnariman.github.io/qcard/#/1"
+        },
+        {
+            "first": "Test",
+            "last": "Account2",
+            "email": "test2@example.com",
+            "twitter": "--",
+            "website": "github.com/hnariman",
+            "link": "https://hnariman.github.io/qcard/#/2"
+        }
+    ]
+}
