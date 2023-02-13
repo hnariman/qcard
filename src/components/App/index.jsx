@@ -22,9 +22,9 @@ export const App = () => {
                 <Navbar />
                 <section className="container">
                     <Routes>
-                        <Route path="/" element={<Main />} />
-                        <Route path="/form" element={<Form />} />
-                        <Route path="/:id" element={<Card />} />
+                        <Route path="/qcard" element={<Main />} />
+                        <Route path="/qcard/form" element={<Form />} />
+                        <Route path="/qcard/:id" element={<Card />} />
                     </Routes>
                 </section>
                 <Footer />
